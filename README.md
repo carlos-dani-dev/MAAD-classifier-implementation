@@ -12,4 +12,11 @@
 <p>O funcionamento completo do pipeline e do classificador do MAC pode ser visualizado no slide <a href='https://www.canva.com/design/DAGHGZHBG2M/RUtsHfD4URyNCa3Z_z4rjg/edit?utm_content=DAGHGZHBG2M&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'>Classificador MAC</a></p>
 
 ### Checklist da produção
-<p></p>
+<ul>
+  <li><s>Implementação do pipeline de obtenção de FaceNet Embeddings</s></li>
+  <li><s>Implementação do algoritmo de Machine Learning do MAC</s></li>
+  <li>Implementação do pipeline de cálculo de confiabilidade das previsões do MAC</li>
+  <li>Determinação do threshold de confiabilidade para cada atributo</li>
+  <li>Descarte de predições a partir do threshold de confiabilidade</li>
+  <li>Agregação dos atributos restantes no dataset alvo</li>
+</ul>
