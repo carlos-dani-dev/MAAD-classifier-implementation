@@ -1,11 +1,11 @@
 # MAAD-classifier-implementation
-<p>ENG: MAAD classifier implementation</p>
-<p>POR-BR: Implementação do Classificador do MAAD</p>
-<p></p>
-<p></p>
+<p>ENG: MAAD Classifier, the MAC (Massive Attribute Classifier), implementation</p>
+<p>POR-BR: Implementação do Classificador do MAAD, o MAC (Massive Attribute Classifier)</p>
+
 ### Paper relacionado
-<p>O paper que idealizou esse classificador pode ser encontrado em <a href='https://arxiv.org/abs/2012.01030'>MAAD-Face: A Massively Annotated Attribute Dataset for Face Images</a></p>
-<p></p>
-<p></p>
-<p>DONE: Embedding de 14k imagens do dataset alvo</p>
-<p>ON THE WAY: Embedding de 14k imagens do CelebA (1º dataset fonte)</p>
+<p>O paper que idealizou esse classificador pode ser encontrado em <a href='https://arxiv.org/abs/2012.01030'>MAAD-Face: A Massively Annotated Attribute Dataset for Face Images</a>.</p>
+<p>Os autores utilizaram este classificador para TRANSFERIR ANOTAÇÕES DE UM OU MAIS DATASETs para um dataset alvo e, sobre isso, montaram o MAAD descrito no paper acima.</p>
+<p>O classificador, no entanto, é  apenas 1 parte do PIPELINE INOVADOR proposto no paper. Outros passos como cálculo de confiança preditiva e agregação de anotações também são performados a partir dos resultados de predição do MAC</p>
+<p>Além disso, analisou-se o impacto da presença de determinados rótulos em diferentes subsets de treinamento e como um modelo de reconhecimento pode ser influenciado por isso.</p>
+
+### Checklist da produção
